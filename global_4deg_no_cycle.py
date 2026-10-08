@@ -35,12 +35,6 @@ from veros.core.operators import at, update
 from veros.core.operators import numpy as npx
 from veros.variables import Variable
 
-BASE_PATH = os.path.dirname(os.path.realpath(__file__))
-DATA_FILES = veros.tools.get_assets(
-    "global_4deg", os.path.join(BASE_PATH, "assets.json")
-)
-
-
 class GlobalFourDegreeSetup(VerosSetup):
     """Global 4 degree model with 15 vertical levels.
 
