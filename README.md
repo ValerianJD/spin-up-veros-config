@@ -2,7 +2,7 @@
 
 First, install VEROS by following these instructions: https://veros.readthedocs.io/en/latest/introduction/get-started.html
 
-You should now have a Conda environment.
+You should now have a Conda environment (that may be named `veros`).
 Activate it with `conda activate veros`.
 You can now run any Python script importing the VEROS model.
 
