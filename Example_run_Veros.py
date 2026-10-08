@@ -1,6 +1,6 @@
 # !/usr/bin/env python3
 
-from global_4deg_config import GlobalFourDegreeSetup as setup
+from global_4deg_no_cycle import GlobalFourDegreeSetup as setup
 
 path_files = "./"
 identifier = "spinup_200"
